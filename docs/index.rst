@@ -8,10 +8,6 @@ Django Concurrency
 Overview
 ========
 
-.. image:: https://img.shields.io/travis/saxix/django-concurrency/master.svg
-    :target: http://travis-ci.org/saxix/django-concurrency/
-    :alt: Test status
-
 .. image:: https://codecov.io/github/saxix/django-concurrency/coverage.svg?branch=master
     :target: https://codecov.io/github/saxix/django-concurrency?branch=master
     :alt: Coverage
