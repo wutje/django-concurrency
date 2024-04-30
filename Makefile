@@ -29,10 +29,6 @@ test:
 lint:
 	pre-commit run --all-files
 
-travis:
-	docker run --privileged --name travis-debug -it -u travis travisci/ci-amethyst:packer-1512508255-986baf0 /bin/bash -l
-
-
 clean:
 	rm -fr ${BUILDDIR} dist *.egg-info .coverage coverage.xml .eggs
 	find src -name __pycache__ -o -name "*.py?" -o -name "*.orig" -prune | xargs rm -rf
